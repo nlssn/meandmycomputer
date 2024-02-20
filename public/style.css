@@ -1,0 +1,29 @@
+/* quando-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Quando";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/quando/quando-v16-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  background: #fbfbfb;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.title {
+  font-family: "Quando", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.highlight {
+  color: #e4b859;
+}
+
+.test {
+  background-color: #f8bf44;
+  color: #222;
+}
